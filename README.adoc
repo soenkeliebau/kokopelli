@@ -1,0 +1,12 @@
+= kokopelli
+Sönke Liebau <soenke.liebau@gmail.com>
+:description: Main readme for the kokopelli project which is a smart waterign solution for balcony/garden plants
+:sectanchors:
+:url-repo: https://github.com/soenkeliebau/kokopelli
+:imagesdir: documentation/images
+
+image::logo_kokopelli.svg[kokopelli,110,200,float="left"]
+
+
+Kokopelli is a project designed to take care of all your watering needs for potted plants - or any plants for that matter.
+
