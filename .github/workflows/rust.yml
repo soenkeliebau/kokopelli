@@ -20,10 +20,10 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
-      - uses: actions-rs/cargo@v1
+      - uses: actions-rs/cargo@v1.0.3
         with:
           command: test
-      - uses: actions-rs/cargo@v1
+      - uses: actions-rs/cargo@v1.0.3
         with:
           command: build
           args: --release
@@ -39,7 +39,7 @@ jobs:
           toolchain: stable
           components: rustfmt
           override: true
-      - uses: actions-rs/cargo@v1
+      - uses: actions-rs/cargo@v1.0.3
         with:
           command: fmt
           args: --all -- --check
